@@ -19,6 +19,7 @@ import {
 
 describe('Smoke Suite', function () {
   it('Order a Men watch flow', () => {
+    browser.maximizeWindow()
     homePage.open()
     homePage.dismissCookies()
     menuPage.open()

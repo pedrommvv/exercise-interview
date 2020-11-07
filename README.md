@@ -12,7 +12,7 @@ For now supports execution in Chrome and Firefox browsers.
 First clone it:
 
 ```bash
-$ git@github.com:pedrommvv/exercise-interview.git
+$ git clone git@github.com:pedrommvv/exercise-interview.git
 ```
 
 Then `cd exercise-interview` and:
@@ -22,7 +22,7 @@ $ npm install
 ```
 
 Rename the `.env.example` to `.env` file in the root of the project and fullfill the necessary variables. (For now only the website URL).
-For example ACCEPTANCE_URL=https://google.com
+In this case ACCEPTANCE_URL=https://shop.mercedes-benz.com/en-gb/collection
 
 For usage of geckodriver (Firefox) in Mac Catalina 10.15, [bypass the notarization](https://firefox-source-docs.mozilla.org/testing/geckodriver/Notarization.html) requirement on macOS.
 Below commands should fix it.
@@ -42,3 +42,8 @@ cd node_modules/geckodriver/
 ```bash
 $ npx wdio wdio.conf.js
 ```
+
+## Issues and Notes
+
+Tested in MacOS Catalina 10.15
+Couldn't start geckodriver in Windows (need more clarification..)
