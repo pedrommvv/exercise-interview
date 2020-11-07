@@ -18,6 +18,7 @@ exports.config = {
   ],
   logLevel: 'info',
   bail: 0,
+  specFileRetries: 2,
   baseUrl: process.env.ACCEPTANCE_URL,
   waitforTimeout: 10000,
   connectionRetryTimeout: 120000,
