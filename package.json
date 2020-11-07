@@ -1,6 +1,6 @@
 {
   "name": "exercise-interview",
-  "version": "1.0.0-RC.0",
+  "version": "1.0.0-RC.1",
   "description": "",
   "main": "index.js",
   "repository": {
@@ -21,7 +21,7 @@
     "@wdio/spec-reporter": "^6.7.0",
     "@wdio/sync": "^6.7.2",
     "chromedriver": "^86.0.0",
-    "geckodriver": "^1.1.0",
+    "geckodriver": "^1.20.0",
     "wdio-chromedriver-service": "^6.0.4",
     "wdio-geckodriver-service": "1.1.0",
     "@babel/core": "^7.8.3",
