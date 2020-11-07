@@ -1,5 +1,5 @@
 import Page from './page'
-import assert from 'assert'
+import { PAUSE_MEDIUM } from '../constants/test-data'
 
 export class HomePage extends Page {
   get navigationLogin() {
@@ -20,7 +20,7 @@ export class HomePage extends Page {
       // firefox reloads the page after closing the cookies.
       // I hate this solution, with more time I think i could find a better solution.
       if (browser.capabilities.browserName === 'firefox') {
-        browser.pause(10000)
+        browser.pause(PAUSE_MEDIUM)
       }
     }
   }

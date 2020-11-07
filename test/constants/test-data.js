@@ -39,3 +39,10 @@ export const MAIN_MENU = {
 }
 export const QUANTITY_INPUT = '2'
 export const GUEST_EMAIL = 'sopas@gmail.com'
+export const PRODUCT_PRICE = 276
+export const POSTAL_CODE = 'SP2 0FL'
+export const PAUSE_SHORT = 2000
+export const PAUSE_MEDIUM = 4000
+export const PAUSE_LONG = 10000
+export const WAIT_MEDIUM = 5000
+export const CUSTOMER_COUNTRY = 'Spain'
