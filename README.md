@@ -41,20 +41,28 @@ cd node_modules/geckodriver/
 
 ## Test Execution
 
-#### Run in Chrome/Firefox simultaneously
+#### Run in Chrome
 
 ```bash
-$ npx wdio wdio.conf.js
+$ npx wdio wdio-chrome.conf.js
+```
+
+#### Run in Firefox
+
+```bash
+$ npx wdio wdio-firefox.conf.js
 ```
 
 ## Issues and Notes
 
 Tested in:
-MacOS Catalina 10.15
-Node.js v12.18.0
-WebDriverIO v6
-Chrome Browser Version 86.0.4240.183 (Official Build) (x86_64)
-Firefox Browser Version 82.0.2 (64-bit)
+
+- MacOS Catalina 10.15
+- Node.js v12.18.0
+- WebDriverIO v6
+- Chrome Browser Version 86.0.4240.183 (Official Build) (x86_64)
+- Firefox Browser Version 82.0.2 (64-bit)
 
 Windows
-Couldn't start geckodriver in Windows (need more clarification..)
+
+- Couldn't start geckodriver in Windows (need more clarification..)
